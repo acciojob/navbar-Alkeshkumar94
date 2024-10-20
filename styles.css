@@ -20,15 +20,11 @@
   padding: 18px 27px; /* Vertical: font-size, Horizontal: 1.5 * font-size */
   cursor: pointer;
   border-left: 2px solid white; /* Apply border to all */
+  border-right:2px solid white;
 }
 
-.navbar-left li:first-child {
-  border-left: none; /* Remove border from first item in the left list */
-}
 
-.navbar-right li:last-child {
-  border-left: none; /* Remove border from first item in the right list */
-}
+
 
 .navbar-left li:hover, .navbar-right li:hover {
   background-color: #b90e4d;
@@ -36,4 +32,11 @@
 
 .navbar-right li {
   border-left: 2px solid white; /* Border between items */
+}
+
+.navbar-right li:first-child {
+  border-left: none; /* Remove border from first item in the right list */
+}
+.navbar-left li:last-child {
+  border-right: none; /* Remove border from first item in the right list */
 }
