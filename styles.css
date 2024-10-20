@@ -12,9 +12,12 @@ ul{
 li{
 	list-style:none;
 	color:white;
-	background-color:#b90e4d;
+	background-color:#6e072d;
 	cursor:pointer;
 	border:2px solid white;
 	font-size:18px;
 	padding:18px 27px;
+}
+li:hover{
+	background-color:#b90e4d;
 }
