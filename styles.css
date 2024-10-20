@@ -3,9 +3,12 @@ nav{
 	width:100%;
 	display:flex;
 	justify-content:space-between;
+		background-color:#6e072d;
+	box-sizing:border-box;
 }
 
 ul{
+	
 	margin:0;
 	padding:0;
 	display:flex;
@@ -13,7 +16,7 @@ ul{
 li{
 	list-style:none;
 	color:white;
-	background-color:#6e072d;
+
 	cursor:pointer;
 	border:2px solid white;
 	font-size:18px;
